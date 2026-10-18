@@ -1,0 +1,11 @@
+[project]
+name = "kinwise-backend"
+version = "0.1.0"
+description = "Kinwise API — curiosity, with care."
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning"]

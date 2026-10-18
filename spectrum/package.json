@@ -1,0 +1,11 @@
+{
+  "name": "kinwise-spectrum",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "dependencies": {
+    "spectrum-ts": "latest"
+  }
+}
